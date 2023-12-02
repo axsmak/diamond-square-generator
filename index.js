@@ -1,5 +1,6 @@
 import DsMap from './src/dsmap.js';
 
-export default {
+export default DsMap;
+export {
   DsMap,
 };

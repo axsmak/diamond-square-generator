@@ -3,7 +3,7 @@ import {
   expect,
   test,
 } from '@jest/globals';
-import DsMap from '../src/dsmap.js';
+import DsMap from '../index.js';
 
 const MAP_DEGREE = 3;
 const MAP_SIZE = 8;
