@@ -1,0 +1,44 @@
+{
+  "name": "diamond-square-generator",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Heightmap generator based on the Diamond-Square algorithm",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack serve --open",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "lint": "./node_modules/.bin/eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axsmak/diamond-square-generator.git"
+  },
+  "keywords": [
+    "heightmap",
+    "diamond",
+    "square",
+    "generator",
+    "map"
+  ],
+  "author": "axsmak",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/axsmak/diamond-square-generator/issues"
+  },
+  "homepage": "https://github.com/axsmak/diamond-square-generator#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "jest": "^29.7.0",
+    "plotly.js-dist-min": "^2.27.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "seedrandom": "^3.0.5"
+  }
+}
